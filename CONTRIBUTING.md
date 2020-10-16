@@ -55,6 +55,7 @@ Its time to make the change to `js/participants.js` file by adding your details.
     city: "<YOUR-CITY>",
     github: "<YOUR-GITHUB-PROFILE-LINK>",
     linkedin: "<YOUR-LINKEDIN-PROFILE-LINK>",
+    website: "<YOUR-WEBSITE-LINK>",
   },
 ```
 
@@ -65,15 +66,17 @@ const participants = [
     name: "Pawan Kolhe",
     college: "Amity University Mumbai",
     city: "Nagpur",
-    github: "https://github.com/PawanKolhe",
+    github: "PawanKolhe",
     linkedin: "https://www.linkedin.com/in/kolhepawan/",
+    website: "https://pawankolhe.com",
   },
   {
     name: "<YOUR-NAME>",
     college: "<YOUR-COLLEGE>",
     city: "<YOUR-CITY>",
-    github: "<YOUR-GITHUB-PROFILE-LINK>",
+    github: "<YOUR-GITHUB-USERNAME>",
     linkedin: "<YOUR-LINKEDIN-PROFILE-LINK>",
+    website: "<YOUR-WEBSITE-LINK>",
   },
 ];
 ```

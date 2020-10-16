@@ -45,6 +45,8 @@ body {
 }
 
 .participant {
+  display: flex;
+  flex-direction: row;
   color: white;
   background-color: #183D5D;
   border-radius: 1rem;
@@ -54,6 +56,22 @@ body {
 .participant:last-child {
   margin-bottom: 0;
 }
+.participant__image {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 50px;
+  height: 100%;
+}
+.participant__image img {
+  object-fit: cover;
+  width: 50px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.participant__right {
+  padding-left: 15px;
+}
 .participant__name {
   color: #93C2DB;
   font-weight: 900;
@@ -62,6 +80,17 @@ body {
 }
 .participant__college {
   font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+.participant__socials a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.participant__socials img {
+  width: 20px;
+  color: white;
+  fill: currentColor;
 }
 
 /* ICONS */
