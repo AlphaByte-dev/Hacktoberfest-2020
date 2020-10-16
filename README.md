@@ -2,6 +2,8 @@
 
 A repo to help you getting started with Hacktoberfest 2020 by adding your details.
 
+![Screenshot](https://i.ibb.co/CVtybY1/image.png)
+
 ## Contributing
 
 Want to contribute to this repo? There are a few things you need to know.
