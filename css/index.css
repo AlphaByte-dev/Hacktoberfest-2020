@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(20,56,87);
+  background: radial-gradient(circle, rgba(20,56,87,1) 0%, rgba(7,37,64,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading img {
+  width: 350px;
+  padding: 30px 30px;
+}
