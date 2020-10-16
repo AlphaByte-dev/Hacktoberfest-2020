@@ -59,8 +59,9 @@ Its time to make the change to `js/participants.js` file by adding your details.
   },
 ```
 
-**Paste** is under the last participant's details
+**Paste** it under the last participant's details
 ```javascript
+// Example
 const participants = [
   {
     name: "Pawan Kolhe",
