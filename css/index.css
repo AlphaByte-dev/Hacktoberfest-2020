@@ -3,11 +3,11 @@
 }
 
 body {
-  background: rgb(20,56,87);
-  background: radial-gradient(circle, rgba(20,56,87,1) 0%, rgba(7,37,64,1) 100%);
+  background: #072540;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  font-family: 'Inter', sans-serif;
 }
 
 .heading {
@@ -15,7 +15,46 @@ body {
   align-items: center;
   justify-content: center;
 }
-.heading img {
-  width: 350px;
-  padding: 30px 30px;
+.heading .logo {
+  max-width: 350px;
+  padding: 30px 20px;
+}
+.heading .logo img {
+  width: 100%;
+}
+
+.quote {
+  text-align: center;
+  padding: 20px;
+  color: #FF8AE2;
+  font-family: 'Caveat', cursive;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.container-inner {
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 20px;
+}
+
+.participant {
+  color: white;
+  background-color: #183D5D;
+  border-radius: 1rem;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.participant:last-child {
+  margin-bottom: 0;
+}
+.participant__name {
+  color: #93C2DB;
+  font-weight: 900;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+.participant__college {
+  font-size: 0.9rem;
 }
