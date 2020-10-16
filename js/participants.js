@@ -7,4 +7,12 @@ const participants = [
     linkedin: "https://www.linkedin.com/in/kolhepawan/",
     website: "https://pawankolhe.com",
   },
+  {
+    name: "Saurabh Shukla",
+    college: "Amity University Mumbai",
+    city: "Navi Mumbai",
+    github: "Fangston0",
+    linkedin: "https://www.linkedin.com/in/saurabh-shukla-680425117/",
+    website: "",
+  },
 ];
