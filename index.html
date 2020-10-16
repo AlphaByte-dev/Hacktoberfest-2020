@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AlphaByte - Hacktoberfest 2020</title>
 
+  <!-- ICONS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/index.css">
@@ -14,35 +20,36 @@
   
 </head>
 <body>
-  <main>
+  <header>
     <div class="heading">
-      <div class="logo">
+      <div class="logo-hf">
         <img src="img/hf_logo.svg" alt="Hacktoberfest logo">
       </div>
     </div>
+  </header>
+  <main>
     <div class="quote">
       "I contributed!"
     </div>
     <div class="container">
-      <div id="participants" class="container-inner">
-        <div class="participant">
-          <div class="participant__name">Pawan Kolhe</div>
-          <div class="participant__college">Amity University Mumbai</div>
+      <div class="container-inner">
+        <div id="participants">
+          <!-- participants data -->
         </div>
-        <div class="participant">
-          <div class="participant__name">Pawan Kolhe</div>
-          <div class="participant__college">Amity University Mumbai</div>
-        </div>
-        <div class="participant">
-          <div class="participant__name">Pawan Kolhe</div>
-          <div class="participant__college">Amity University Mumbai</div>
-        </div>
+
+        <img id="iconPR" class="icon" src="img/images/Picture1.png" alt="PR icon">
+        <img id="iconBranch" class="icon" src="img/images/Picture2.png" alt="Branch icon">
+        <img id="iconCommit" class="icon" src="img/images/Picture3.png" alt="Commit icon">
       </div>
     </div>
   </main>
+  <footer>
+    <div class="logo-alphabyte">
+      <img src="img/AlphaByte-white.png" alt="AlphaByte logo">
+    </div>
+  </footer>
 
   <!-- SCRIPTS -->
-  
   <script src="js/participants.js"></script>
   <script src="js/index.js"></script>
 </body>

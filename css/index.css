@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 body {
   background: #072540;
   background-repeat: no-repeat;
@@ -15,11 +19,11 @@ body {
   align-items: center;
   justify-content: center;
 }
-.heading .logo {
-  max-width: 350px;
-  padding: 30px 20px;
+.heading .logo-hf {
+  width: 350px;
+  padding: 50px 20px 10px 20px;
 }
-.heading .logo img {
+.heading .logo-hf img {
   width: 100%;
 }
 
@@ -33,6 +37,7 @@ body {
 }
 
 .container-inner {
+  position: relative;
   max-width: 700px;
   margin: 0 auto;
   border-radius: 2rem;
@@ -57,4 +62,60 @@ body {
 }
 .participant__college {
   font-size: 0.9rem;
+}
+
+/* ICONS */
+#iconPR {
+  width: 80px;
+  opacity: 0.15;
+  position: absolute;
+  top: -100px;
+  left: -150px;
+  transform: rotateZ(-15deg);
+}
+
+#iconBranch {
+  width: 70px;
+  opacity: 0.15;
+  position: absolute;
+  top: 100px;
+  right: -150px;
+  transform: rotateZ(15deg);
+}
+
+#iconCommit {
+  width: 60px;
+  opacity: 0.15;
+  position: absolute;
+  top: 340px;
+  left: -170px;
+  transform: rotateZ(-15deg);
+}
+
+footer {
+  padding: 20px 30px 40px;
+}
+
+.logo-alphabyte {
+  text-align: center;
+}
+.logo-alphabyte img {
+  opacity: 0.1;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.icon {
+  user-select: none;
+  transition: 0.8s ease;
+}
+
+@media (max-width: 400px) {
+  .heading .logo {
+    width: 100%;
+    padding: 50px 20px 10px 20px;
+  }
+  .logo-alphabyte img {
+    width: 90%;
+  }
 }
