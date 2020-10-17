@@ -59,12 +59,12 @@ body {
 .participant__image {
   overflow: hidden;
   margin: 0 auto;
-  width: 50px;
+  width: 80px;
   height: 100%;
 }
 .participant__image img {
   object-fit: cover;
-  width: 50px;
+  width: 80px;
   height: 100%;
   border-radius: 5px;
 }
