@@ -52,6 +52,8 @@ body {
   border-radius: 1rem;
   padding: 20px;
   margin-bottom: 20px;
+  border: 1px solid #93C2DB;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08), 0 6px 6px rgba(0,0,0,0.17);
 }
 .participant:last-child {
   margin-bottom: 0;
