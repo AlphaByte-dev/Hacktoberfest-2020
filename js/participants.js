@@ -15,4 +15,12 @@ const participants = [
     linkedin: "https://www.linkedin.com/in/saurabh-shukla-680425117/",
     website: "",
   },
+  {
+    name: "John Doe",
+    college: "Amity University Mumbai",
+    city: "Navi Mumbai",
+    github: "JohnDoe",
+    linkedin: "",
+    website: "",
+  },
 ];
