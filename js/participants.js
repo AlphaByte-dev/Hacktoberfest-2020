@@ -15,4 +15,12 @@ const participants = [
     linkedin: "https://www.linkedin.com/in/saurabh-shukla-680425117/",
     website: "",
   },
+  {
+    name: "Ishaan Sunita Pandita",
+    college: "Amity University Mumbai",
+    city: "Navi Mumbai",
+    github: "EmperorArthurIX",
+    linkedin: "",
+    website: "",
+  },
 ];
