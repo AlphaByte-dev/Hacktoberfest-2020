@@ -16,10 +16,10 @@ const participants = [
     website: "",
   },
   {
-    name: "John Doe",
+    name: "Ishaan Sunita Pandita",
     college: "Amity University Mumbai",
     city: "Navi Mumbai",
-    github: "JohnDoe",
+    github: "EmperorArthurIX",
     linkedin: "",
     website: "",
   },
