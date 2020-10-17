@@ -4,6 +4,9 @@ A repo to help you getting started with Hacktoberfest 2020 by adding your detail
 
 ![Screenshot](https://i.ibb.co/CVtybY1/image.png)
 
+## Website
+Link: https://alphabyte-dev.github.io/Hacktoberfest-2020/
+
 ## Contributing
 
 Want to contribute to this repo? There are a few things you need to know.
