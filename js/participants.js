@@ -23,4 +23,12 @@ const participants = [
     linkedin: "",
     website: "",
   },
+  {
+    name: "Phanindra Kavala",
+    college: "Amity University Mumbai",
+    city: "Rajahmundry",
+    github: "phanindra7891",
+    linkedin: "",
+    website: "",
+  },
 ];
