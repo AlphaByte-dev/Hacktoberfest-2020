@@ -31,4 +31,12 @@ const participants = [
     linkedin: "",
     website: "",
   },
+  {
+    name: "Neel Parihar",
+    college: "Amity University Mumbai",
+    city: "Mumbai",
+    github: "NeelParihar",
+    linkedin: "https://www.linkedin.com/in/neel-parihar/",
+    website: "",
+  },
 ];
