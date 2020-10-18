@@ -24,3 +24,11 @@ const participants = [
     website: "",
   },
 ];
+  {
+    name: "<al>",
+    college: "<The Internet>",
+    city: "<Planet Earth>",
+    github: "<https://github.com/adlyloukil>",
+    linkedin: "",
+    website: "",
+  },
