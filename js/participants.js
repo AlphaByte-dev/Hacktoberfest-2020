@@ -39,7 +39,6 @@ const participants = [
     linkedin: "https://www.linkedin.com/in/neel-parihar/",
     website: "",
   },
-  
   {
     name: "Punit Baviskar",
     college: "Amity University Mumbai",
