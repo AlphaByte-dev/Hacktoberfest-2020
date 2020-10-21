@@ -47,4 +47,12 @@ const participants = [
     linkedin: "https://www.linkedin.com/in/puneetb22/",
     website: "https://punitbaviskar.netlify.app/",
   },
+  {
+    name: "Krunal Bhere",
+    college: "Amity University Mumbai",
+    city: "Kalyan",
+    github: "MORGUE28",
+    linkedin: "",
+    website: "",
+   },
 ];
