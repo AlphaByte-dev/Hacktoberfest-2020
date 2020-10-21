@@ -54,5 +54,13 @@ const participants = [
     github: "MORGUE28",
     linkedin: "",
     website: "",
-   },
+  },
+  {
+    name: "Ansh Dawda",
+    college: "Amity University Mumbai",
+    city: "Navi Mumbai",
+    github: "InsaanTheHuman",
+    linkedin: "",
+    website: "",
+  },
 ];
