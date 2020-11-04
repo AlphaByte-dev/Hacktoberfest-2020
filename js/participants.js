@@ -63,4 +63,12 @@ const participants = [
     linkedin: "",
     website: "",
   },
+  {
+    name: "Shrilesh Rane",
+    college: "Amity University Mumbai",
+    city: "Mumbai",
+    github: "shrilesh2107",
+    linkedin: "",
+    website: "",
+  },
 ];
